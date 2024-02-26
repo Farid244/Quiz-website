@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('bg4.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif,sans-serif;
+}
+h1{
+    text-align: center;
+    background-color:aquamarine;
+    color:rgb(230, 73, 73);
+    height: 50px;
+    padding-top: 5px;
+}
+h1:hover{
+    color:rgb(105, 105, 224);
+    cursor:pointer;
+    background-color: rgb(231, 174, 133);
+}
+Button {
+    margin: 80px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color:rgb(67, 67, 245);
+    border:1px solid rgb(124, 116, 116);
+    border-radius: 8px;
+    background-color: rgb(248, 248, 197);
+  }
+  Button:hover{
+    background-color:rgb(245, 131, 131);
+    color:#ffffff;
+    cursor: pointer;
+
+  }
