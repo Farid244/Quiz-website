@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Page</title>
+<link rel="icon" href="icon.avif">
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div class="banner">
+    <img src="logo.png" alt="logo" height="60px" width="150px"><h2>JavaScript Questions Quiz </h2>
+    </div>
+    <br>
+<p id="timer">Timer: <span id="timer">5:00</span></p>
+<br>
+
+<form id="quizForm">
+  <p class="txt"> Question 1: Javascript is an _______ language?</p><br>
+  <input type="radio" id="q1answerA" name="q1answer" value="A">
+  <label for="q1answerA">A. Object-Oriented</label><br><br>
+  <input type="radio" id="q1answerB" name="q1answer" value="B">
+  <label for="q1answerB">B. Object-Based</label><br><br>
+  <input type="radio" id="q1answerC" name="q1answer" value="C">
+  <label for="q1answerC">C. procedural</label><br><br><br>
+
+  <p class="txt">Question 2: Which of the following methods is used to access HTML elements using Javascript?</p><br>
+  <input type="radio" id="q2answerA" name="q2answer" value="A">
+  <label for="q2answerA">A. getElementById</label><br><br>
+  <input type="radio" id="q2answerB" name="q2answer" value="B">
+  <label for="q2answerB">B. getElementsByClassName</label><br><br>
+  <input type="radio" id="q2answerC" name="q2answer" value="C">
+  <label for="q2answerC">C. Both</label><br><br><br>
+
+  <p class="txt"> Question 3: When the switch statement matches the expression with the given labels, how is the comparison done?</p><br>
+  <input type="radio" id="q3answerA" name="q3answer" value="A">
+  <label for="q3answerA">A. Both the datatype and result of the expression are compared</label><br><br>
+  <input type="radio" id="q3answerB" name="q3answer" value="B">
+  <label for="q3answerB">B. Only the datatype of the expression are compared</label><br><br>
+  <input type="radio" id="q3answerC" name="q3answer" value="C">
+  <label for="q3answerC">C. Only the value of the expression are compared</label><br><br><br>
+
+  <p class="txt"> Question 4: When an operator’s value is NULL, the typeof returned by the unary operator is:</p><br>
+  <input type="radio" id="q4answerA" name="q4answer" value="A">
+  <label for="q4answerA">A. Boolean</label><br><br>
+  <input type="radio" id="q4answerB" name="q4answer" value="B">
+  <label for="q4answerB">B. Undefined</label><br><br>
+  <input type="radio" id="q4answerC" name="q4answer" value="C">
+  <label for="q4answerC">C. Object</label><br><br><br>
+
+  <p class="txt"> Question 5:  Which of the following is not a Javascript framework?</p><br>
+  <input type="radio" id="q5answerA" name="q5answer" value="A">
+  <label for="q5answerA">A. Node</label><br><br>
+  <input type="radio" id="q5answerB" name="q5answer" value="B">
+  <label for="q5answerB">B. React</label><br><br>
+  <input type="radio" id="q5answerC" name="q5answer" value="C">
+  <label for="q5answerC">C. Cassandra</label><br><br>
+
+  <br>
+  <button type="button" onclick="submitQuiz()">Submit</button>
+</form>
+
+<script src="script2.js"></script>
+</body>
+</html>
